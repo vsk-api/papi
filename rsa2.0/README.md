@@ -23,3 +23,26 @@
  </model:model>
 ```
 Справочник ФИАС можно скачать тут https://fias.nalog.ru/Updates
+
+```xml
+<model:addresses>
+    <model:country>
+        <model:countryCode>Россия</model:countryCode>
+    </model:country>
+    <model:addressType>
+        <model:addressTypeCode>REGISTRATION</model:addressTypeCode>
+    </model:addressType>
+    <model:region/>
+    <model:district/>
+    <model:city>Москва</model:city>
+    <model:locality/>
+    <model:street>Островная Улица</model:street>
+    <model:house>16</model:house>
+    <model:building>1</model:building>
+    <model:flat>119</model:flat>
+    <model:okato/>
+    <model:addressStr/>    
+    <model:kladr>77000000000</model:kladr>
+    <model:fias>77000000000</model:fias> 
+</model:addresses>
+```    
