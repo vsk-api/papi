@@ -1,7 +1,8 @@
 Справочники и описание изменений для новой версии api
 Основные изменения 
 1. Использование кода ФИАС вместо кода КЛАДР. 
-2. Новый справочник марок и моделей.
+2. Новый справочник марок и моделей. ( models.csv )
+3. Изменения в кодировке категорий авто. ( стправочник ТипыТС.csv )
 3. Изменение в формате запроса. Добавляется поле fias в адресе, марка и модель передаются в тегах <name>, название марки и модели, вместо кодов.
 
 вместо
@@ -12,7 +13,10 @@
         <model:vehicleModelCode>1278</model:vehicleModelCode>
         <model:mark>
             <model:vehicleMarkCode>173</model:vehicleMarkCode>
-         </model:mark>
+        </model:mark>
+        <model:type>
+             <model:vehicleTypeCode>B</model:vehicleTypeCode>
+        </model:type>
     </model:model>
 ...
     <model:power>150</model:power>
