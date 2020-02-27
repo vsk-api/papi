@@ -6,21 +6,38 @@
 
 вместо
 ```html
-<model:model>
-    <model:vehicleModelCode>1278</model:vehicleModelCode>
-    <model:mark>
-        <model:vehicleMarkCode>173</model:vehicleMarkCode>
-     </model:mark>
- </model:model>
+<model:policyObjects>
+...
+    <model:model>
+        <model:vehicleModelCode>1278</model:vehicleModelCode>
+        <model:mark>
+            <model:vehicleMarkCode>173</model:vehicleMarkCode>
+         </model:mark>
+    </model:model>
+...
+    <model:power>150</model:power>
+    <model:yearIssue>2005</model:yearIssue>
+... 
+</model:policyObjects>
 ``` 
 нужно передавать
 ```html
-<model:model>
-    <model:mark>
-        <model:name>Nissan</model:name>
-     </model:mark>
-     <model:name>Note Plus 1</model:name>
- </model:model>
+<model:policyObjects>
+...
+    <model:model>
+         <model:mark>
+             <model:name>Nissan</model:name>
+         </model:mark>
+         <model:type>
+             <model:vehicleTypeCode>B</model:vehicleTypeCode>
+         </model:type>
+         <model:name>Note Plus 1</model:name>
+     </model:model>
+...
+    <model:power>150</model:power>
+    <model:yearIssue>2005</model:yearIssue>
+... 
+</model:policyObjects>
 ```
 Справочник ФИАС можно скачать тут https://fias.nalog.ru/Updates
 
