@@ -89,4 +89,20 @@
 21.08.2020 v 2.1 Изменение тарифа ОСАГО
 Добавлено 
   1. Семейное положение для владельца авто 
+```xml   
+  <model:fullName>Попов Александр Сергеевич</model:fullName>
+
+  <model:familyState>
+  <model:familyStateTypeCode>MARRIED</model:familyStateTypeCode>
+  </model:familyState>                
+</model:owner>
+```
   2. IP адрес страхователя
+```xml
+<model:classifiers>
+  <model:classifierType>
+    <model:classifierTypeCode>IP_ADDRESS</model:classifierTypeCode>  
+  </model:classifierType>
+  <model:classifierValue>255.255.255.255</model:classifierValue> 
+</model:classifiers>
+```
